@@ -2,7 +2,7 @@ import Foundation
 
 class PexelsAPIService {
 
-    private let apiKey = "9m863Pesupjs8hIvau0Alfs2sxJnlVxMCssch3gDVSZ03A0QtospaBil"
+    private let apiKey = "YOUR API KEY"
 
     func fetchVideos(page: Int) async throws -> [Video] {
 
